@@ -1,6 +1,8 @@
 ---
 title: "Proof of Concept"
-format: html
+format: 
+    gfm:
+        output-file: "README.md"
 ---
 
 Here's a proof of concept to see if we can read my work schedule and automatically create a calendar link from it.
@@ -11,7 +13,7 @@ library(lubridate)
 library(dplyr)
 library(stringr)
 library(purrr)
-library()
+library(glue)
 library(calendar)
 ```
 
